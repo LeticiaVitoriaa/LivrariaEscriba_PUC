@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 0; 
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    color: rgb(14, 11, 11);
+}
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    color: rgb(14, 11, 11);
+}
+
+
+body{
+    background: linear-gradient(rgb(100, 176, 226), rgb(135, 140, 214), rgb(186, 218, 240) );
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bolinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px; 
+    height: 45px; 
+    border-radius: 60px; 
+    background-color: #3498db;
+    color: white;
+    font-size: 24px; 
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    line-height: 1.2;
+}
+
+.centro {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.inline {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#nomeAlunos {
+    font-size: 30px; 
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
